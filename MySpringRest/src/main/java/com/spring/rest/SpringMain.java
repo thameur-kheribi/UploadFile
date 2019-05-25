@@ -13,9 +13,14 @@ public class SpringMain implements CommandLineRunner{
 	
 	@Autowired
 	StorageService storageService;
+	
+	@Autowired
+	StorageService storageService1;
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringMain.class, args);
 
+		
 	}
 
 	@Override
