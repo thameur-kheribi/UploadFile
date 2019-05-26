@@ -59,7 +59,7 @@ public class Employee {
 		Position = position;
 	}
 	
-	@JsonIgnore
+	@JsonGetter("FileName")
 	public String getFileName() {
 		return FileName;
 	}
